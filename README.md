@@ -1,20 +1,92 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+
+# 🌊 Abyssal Elegance
+
+A premium fine dining restaurant web application inspired by the mysteries of the deep ocean.
+
+Built with React, TypeScript, Vite, Express, and modern UI/UX principles.
+
 </div>
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+## ✨ Features
 
-View your app in AI Studio: https://ai.studio/apps/6b432d1d-6e70-4278-9e0f-4173c4b08430
+- 🍽️ Luxury restaurant landing page
+- 📖 Interactive digital menu
+- 🔍 Search and advanced filtering
+- ❤️ Save favorite dishes
+- 🌍 English & Arabic language support
+- 🤖 AI Sommelier recommendations
+- 📅 Online table reservations
+- 📱 Fully responsive design
+- ⚡ Fast performance with Vite
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## 🛠️ Tech Stack
 
+- React 19
+- TypeScript
+- Vite
+- Express
+- Lucide React
+- Tailwind CSS
+- Google Gemini API
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+
+## 🚀 Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/eng-tarek-cyber/abyssa-l-elegance.git
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Create an environment file
+
+Create a `.env` (or `.env.local` if your project uses it) and add:
+
+```env
+GEMINI_API_KEY=YOUR_API_KEY
+```
+
+### Start the development server
+
+```bash
+npm run dev
+```
+
+Open your browser at:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 📸 Preview
+
+> Add screenshots of the application here.
+
+---
+
+## 👨‍💻 Author
+
+**Tarek Eid**
+
+- GitHub: https://github.com/eng-tarek-cyber
+- LinkedIn: *(Add your LinkedIn profile)*
+
+---
+
+## 📄 License
+
+This project is available for educational and portfolio purposes.
