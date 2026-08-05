@@ -1,0 +1,30 @@
+# Dependencies
+node_modules
+bun.lock
+
+# Build output
+dist
+build
+
+# Git
+.git
+.gitignore
+
+# Environment files (secrets must not be baked into the image)
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Editor / OS
+.DS_Store
+.vscode
+.idea
+
+# Coverage
+coverage
+
+# Metadata
+metadata.json
