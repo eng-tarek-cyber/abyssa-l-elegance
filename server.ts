@@ -1,6 +1,5 @@
 import express from "express";
 import path from "path";
-import { createServer as createViteServer } from "vite";
 import { GoogleGenAI } from "@google/genai";
 import dotenv from "dotenv";
 
@@ -216,6 +215,9 @@ Output valid JSON only with no markdown formatting around it if possible, or cle
 // Vite Development / Production Middleware Setup
 async function start() {
   if (process.env.NODE_ENV !== "production") {
+    // Lazy-load Vite only in development so the production bundle does not
+    // require the "vite" devDependency at runtime.
+    const { createServer: createViteServer } = await import("vite");
     const vite = await createViteServer({
       server: { middlewareMode: true },
       appType: "spa",
