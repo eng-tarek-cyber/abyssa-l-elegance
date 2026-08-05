@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Playfair Display', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #0f1321;
+    color: #dfe1f6;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Luxury Glassmorphism and Custom Styles */
+.glass-panel {
+  background: rgba(23, 27, 42, 0.65);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-panel-hover {
+  transition: all 0.3s ease;
+}
+.glass-panel-hover:hover {
+  background: rgba(38, 41, 57, 0.75);
+  border-color: rgba(137, 206, 255, 0.25);
+  box-shadow: 0 12px 30px -10px rgba(14, 165, 233, 0.2);
+}
+
+.glow-primary {
+  box-shadow: 0 0 25px rgba(14, 165, 233, 0.35);
+}
+
+.glow-secondary {
+  box-shadow: 0 0 25px rgba(79, 219, 200, 0.35);
+}
+
+.glow-text-primary {
+  text-shadow: 0 0 15px rgba(137, 206, 255, 0.4);
+}
+
+/* Custom Thin Luxury Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(15, 19, 33, 0.8);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(79, 219, 200, 0.25);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(79, 219, 200, 0.5);
+}

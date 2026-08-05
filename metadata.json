@@ -1,0 +1,6 @@
+{
+  "name": "Abyssal Elegance",
+  "description": "A Michelin-star luxury seafood dining experience featuring interactive tasting menus, wine pairings, AI Sommelier recommendations, and table reservations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
